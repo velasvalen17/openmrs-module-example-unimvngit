@@ -44,7 +44,7 @@ public class AdminList extends AdministrationSectionExt {
 	 */
 	public Map<String, String> getLinks() {
 		LinkedHashMap<String, String> map = new LinkedHashMap<String, String>();
-		map.put("/module/unimvngit/manage.form", "unimvngit.manage");
+		map.put("/module/unimvngit/viewConceptNames.form", "unimvngit.viewConceptNames");
 		return map;
 	}
 	
